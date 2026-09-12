@@ -1,0 +1,14 @@
+services:
+  ajeet-erp:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_FILE: /data/school-data.json
+    volumes:
+      - ajeet_erp_data:/data
+    restart: unless-stopped
+volumes:
+  ajeet_erp_data:

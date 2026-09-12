@@ -1,0 +1,8 @@
+{
+  "name": "ajeet-public-school-erp",
+  "version": "3.3.0-central",
+  "private": true,
+  "description": "Ajeet Public School Attendance & Academic ERP - central server build",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=18"}
+}
